@@ -1,0 +1,238 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  padding: 20px;
+}
+
+.nami-logo {
+  grid-area: NAMI;
+}
+
+.t-shirts {
+  grid-area: T-SHIRTS;
+}
+
+.hudie {
+  grid-area: HUDIE;
+}
+
+.maiki {
+  grid-area: MAIKI;
+}
+
+.nami {
+  width: 100%;
+  object-fit: contain;
+}
+
+.t-shirts-img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.hudie-img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.maiki-img {
+  width: 100%;
+  object-fit: contain;
+}
+
+#article-top {
+  color: white;
+  text-align: center;
+  height: 30%;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 2fr 1fr;
+  grid-template-areas:
+    "NAMI NAMI NAMI"
+    "T-SHIRTS HUDIE MAIKI";
+}
+
+.first {
+  grid-area: FIRST;
+  background-color: black;
+}
+
+.second {
+  grid-area: SECOND;
+  background-color: black;
+}
+
+.third {
+  grid-area: THIRD;
+  background-color: black;
+}
+
+.fourth {
+  grid-area: FOURTH;
+  background-color: black;
+}
+
+.fifth {
+  grid-area: FIFTH;
+  background-color: black;
+}
+
+.sixth {
+  grid-area: SIXTH;
+  background-color: black;
+}
+
+.seventh {
+  grid-area: SEVENTH;
+  background-color: black;
+}
+
+.eighth {
+  grid-area: EIGHTH;
+  background-color: black;
+}
+
+#article-average {
+  color: white;
+  text-align: center;
+  height: 40%;
+  margin-top: 50px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "FIRST SECOND THIRD FOURTH"
+    "FIFTH SIXTH SEVENTH EIGHTH";
+}
+
+.a {
+  grid-area: A;
+  background-color: red;
+}
+
+.b {
+  grid-area: B;
+  background-color: red;
+}
+
+.c {
+  grid-area: C;
+  background-color: red;
+}
+
+.d {
+  grid-area: D;
+  background-color: red;
+}
+
+.e {
+  grid-area: E;
+  background-color: red;
+}
+
+.f {
+  grid-area: F;
+  background-color: red;
+}
+
+.g {
+  grid-area: G;
+  background-color: red;
+}
+
+.h {
+  grid-area: H;
+  background-color: red;
+}
+
+.i {
+  grid-area: I;
+  background-color: red;
+}
+
+.j {
+  grid-area: J;
+  background-color: red;
+}
+
+.k {
+  grid-area: K;
+  background-color: red;
+}
+
+.l {
+  grid-area: L;
+  background-color: red;
+}
+
+.m {
+  grid-area: M;
+  background-color: red;
+}
+
+.n {
+  grid-area: N;
+  background-color: red;
+}
+
+.o {
+  grid-area: O;
+  background-color: red;
+}
+
+.p {
+  grid-area: P;
+  background-color: red;
+}
+
+.q {
+  grid-area: Q;
+  background-color: red;
+}
+
+.r {
+  grid-area: R;
+  background-color: red;
+}
+
+.s {
+  grid-area: S;
+  background-color: red;
+}
+
+.t {
+  grid-area: T;
+  background-color: red;
+}
+
+#article-bottom {
+  color: white;
+  text-align: center;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "A A A A"
+    "B C D E"
+    "F G H I"
+    "J K L M"
+    "N O P Q"
+    "R . S T";
+}
+
+footer {
+  color: white;
+  text-align: center;
+  background-color: navy;
+  height: 30px;
+  margin: 20px 0;
+}
