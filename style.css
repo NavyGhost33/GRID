@@ -99,6 +99,46 @@ main {
   background-color: black;
 }
 
+.first-img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.second-img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.third-img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.fourth-img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.fifth-img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.sixth-img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.seventh-img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.eighth-img {
+  width: 100%;
+  object-fit: contain;
+}
+
 #article-average {
   color: white;
   text-align: center;
@@ -107,7 +147,7 @@ main {
   display: grid;
   gap: 10px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   grid-template-areas:
     "FIRST SECOND THIRD FOURTH"
     "FIFTH SIXTH SEVENTH EIGHTH";
@@ -216,6 +256,7 @@ main {
 #article-bottom {
   color: white;
   text-align: center;
+  margin-top: 100px;
   display: grid;
   gap: 10px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -236,3 +277,4 @@ footer {
   height: 30px;
   margin: 20px 0;
 }
+
