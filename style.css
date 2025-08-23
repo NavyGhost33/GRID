@@ -155,125 +155,40 @@ main {
 
 .a {
   grid-area: A;
-  background-color: red;
 }
 
 .b {
   grid-area: B;
-  background-color: red;
 }
 
 .c {
   grid-area: C;
-  background-color: red;
 }
 
 .d {
   grid-area: D;
-  background-color: red;
 }
 
 .e {
   grid-area: E;
-  background-color: red;
-}
-
-.f {
-  grid-area: F;
-  background-color: red;
-}
-
-.g {
-  grid-area: G;
-  background-color: red;
-}
-
-.h {
-  grid-area: H;
-  background-color: red;
-}
-
-.i {
-  grid-area: I;
-  background-color: red;
-}
-
-.j {
-  grid-area: J;
-  background-color: red;
-}
-
-.k {
-  grid-area: K;
-  background-color: red;
-}
-
-.l {
-  grid-area: L;
-  background-color: red;
-}
-
-.m {
-  grid-area: M;
-  background-color: red;
-}
-
-.n {
-  grid-area: N;
-  background-color: red;
-}
-
-.o {
-  grid-area: O;
-  background-color: red;
-}
-
-.p {
-  grid-area: P;
-  background-color: red;
-}
-
-.q {
-  grid-area: Q;
-  background-color: red;
-}
-
-.r {
-  grid-area: R;
-  background-color: red;
-}
-
-.s {
-  grid-area: S;
-  background-color: red;
-}
-
-.t {
-  grid-area: T;
-  background-color: red;
 }
 
 #article-bottom {
   color: white;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 70px;
   display: grid;
   gap: 10px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   grid-template-areas:
     "A A A A"
-    "B C D E"
-    "F G H I"
-    "J K L M"
-    "N O P Q"
-    "R . S T";
+    "B C D E";
 }
 
 footer {
   color: white;
   text-align: center;
-  background-color: navy;
   height: 30px;
   margin: 20px 0;
 }
