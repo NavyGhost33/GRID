@@ -153,6 +153,10 @@ main {
     "FIFTH SIXTH SEVENTH EIGHTH";
 }
 
+#article-average h5 {
+  font-size: 20px;
+}
+
 .a {
   grid-area: A;
 }
@@ -192,4 +196,5 @@ footer {
   height: 30px;
   margin: 20px 0;
 }
+
 
